@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitalwounds Hub</title>
+    <!-- tailwind & lucide via cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { background-color: #020617; color: #f8fafc; }
+        .card { background-color: #0f172a; border: 1px solid #1e293b; transition: all 0.2s; }
+        .card:hover { border-color: #3b82f6; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center p-8 font-sans">
+    
+    <h1 class="text-4xl font-bold mb-12 text-white">Vitalwounds Hub</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-2xl">
+        
+        <a href="https://character-story-sigma.vercel.app/" target="_blank" class="card p-6 rounded-xl flex items-center justify-between group">
+            <div class="flex items-center gap-4">
+                <i data-lucide="bot" class="w-8 h-8 text-blue-500"></i>
+                <span class="text-lg font-semibold">SAMP Character Story</span>
+            </div>
+            <i data-lucide="external-link" class="w-5 h-5 text-slate-500 group-hover:text-blue-500 transition"></i>
+        </a>
+
+        <a href="https://random-data-generator-eight.vercel.app/" target="_blank" class="card p-6 rounded-xl flex items-center justify-between group">
+            <div class="flex items-center gap-4">
+                <i data-lucide="box" class="w-8 h-8 text-blue-500"></i>
+                <span class="text-lg font-semibold">Random Data Generator</span>
+            </div>
+            <i data-lucide="external-link" class="w-5 h-5 text-slate-500 group-hover:text-blue-500 transition"></i>
+        </a>
+
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
