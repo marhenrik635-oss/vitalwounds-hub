@@ -195,10 +195,13 @@
 
             <!-- Hero -->
             <section class="text-center hero-stagger">
-                <div class="badge mx-auto js-anim"><span class="dot-live"></span> Seluruh layanan aktif & online</div>
-                <h1 class="mt-8 text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-gradient js-anim">Ekosistem Digital<br class="hidden sm:block"> <span class="whitespace-nowrap">Vitalwounds</span></h1>
-                <p class="mt-6 text-base sm:text-lg text-ink-muted max-w-xl mx-auto js-anim">Pintu akses cepat ke seluruh ekosistem aplikasi, tools & layanan digital premium kami — dirancang simpel, cepat, dan modern.</p>
-                <div class="mt-8 flex items-center justify-center gap-4 js-anim">
+                <div class="badge mx-auto js-anim js-hero" data-dir="-30"><span class="dot-live"></span> Seluruh layanan aktif & online</div>
+                <h1 class="mt-8 text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-gradient js-hero" data-split>
+                    <span class="block overflow-hidden"><span class="split-line block whitespace-nowrap" style="display:inline-block">Ekosistem Digital</span></span>
+                    <span class="block overflow-hidden mt-1 sm:mt-2"><span class="split-line block whitespace-nowrap" style="display:inline-block">Vitalwounds</span></span>
+                </h1>
+                <p class="mt-6 text-base sm:text-lg text-ink-muted max-w-xl mx-auto js-anim js-hero" data-dir="40">Pintu akses cepat ke seluruh ekosistem aplikasi, tools & layanan digital premium kami — dirancang simpel, cepat, dan modern.</p>
+                <div class="mt-8 flex items-center justify-center gap-4 js-anim js-hero" data-dir="30">
                     <a href="#layanan" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-ink text-white text-sm font-medium hover:bg-ink-soft transition-all duration-300 hover:-translate-y-0.5 shadow-card">
                         Jelajahi Layanan
                         <i data-lucide="arrow-down" class="w-4 h-4"></i>
@@ -211,14 +214,14 @@
 
             <!-- Services -->
             <section id="layanan" class="mt-28 sm:mt-36 scroll-mt-28">
-                <div class="max-w-2xl mx-auto text-center mb-12">
-                    <p class="text-xs font-semibold tracking-[0.2em] uppercase text-accent js-anim">Layanan</p>
-                    <h2 class="mt-3 text-3xl sm:text-4xl font-bold js-anim">Pilih aplikasimu</h2>
-                    <p class="mt-4 text-ink-muted text-base js-anim">Satu hub untuk semua. Klik untuk langsung menuju layanan.</p>
+                <div class="max-w-2xl mx-auto text-center mb-12 stagger-header">
+                    <p class="text-xs font-semibold tracking-[0.2em] uppercase text-accent">Layanan</p>
+                    <h2 class="mt-3 text-3xl sm:text-4xl font-bold">Pilih aplikasimu</h2>
+                    <p class="mt-4 text-ink-muted text-base">Satu hub untuk semua. Klik untuk langsung menuju layanan.</p>
                 </div>
 
-                <div class="grid sm:grid-cols-2 gap-4">
-                    <a href="https://vitalwounds.my.id/" target="_blank" rel="noopener noreferrer" class="link-card js-anim">
+                <div class="grid sm:grid-cols-2 gap-4" id="layanan-grid">
+                    <a href="https://vitalwounds.my.id/" target="_blank" rel="noopener noreferrer" class="link-card js-card">
                         <div class="flex items-center gap-4">
                             <div class="link-icon-wrap"><i data-lucide="store" class="link-icon"></i></div>
                             <div class="flex flex-col text-left">
@@ -229,7 +232,7 @@
                         <i data-lucide="arrow-up-right" class="link-arrow"></i>
                     </a>
 
-                    <a href="https://vitalwounds.dpdns.org/" target="_blank" rel="noopener noreferrer" class="link-card js-anim">
+                    <a href="https://vitalwounds.dpdns.org/" target="_blank" rel="noopener noreferrer" class="link-card js-card">
                         <div class="flex items-center gap-4">
                             <div class="link-icon-wrap"><i data-lucide="bot" class="link-icon"></i></div>
                             <div class="flex flex-col text-left">
@@ -240,7 +243,7 @@
                         <i data-lucide="arrow-up-right" class="link-arrow"></i>
                     </a>
 
-                    <a href="https://generator.vitalwounds.my.id/" target="_blank" rel="noopener noreferrer" class="link-card js-anim">
+                    <a href="https://generator.vitalwounds.my.id/" target="_blank" rel="noopener noreferrer" class="link-card js-card">
                         <div class="flex items-center gap-4">
                             <div class="link-icon-wrap"><i data-lucide="shuffle" class="link-icon"></i></div>
                             <div class="flex flex-col text-left">
@@ -251,7 +254,7 @@
                         <i data-lucide="arrow-up-right" class="link-arrow"></i>
                     </a>
 
-                    <a href="https://ssrp.vitalwounds.my.id/" target="_blank" rel="noopener noreferrer" class="link-card js-anim">
+                    <a href="https://ssrp.vitalwounds.my.id/" target="_blank" rel="noopener noreferrer" class="link-card js-card">
                         <div class="flex items-center gap-4">
                             <div class="link-icon-wrap"><i data-lucide="globe" class="link-icon"></i></div>
                             <div class="flex flex-col text-left">
@@ -267,17 +270,17 @@
             <!-- Company -->
             <section id="tentang" class="mt-28 sm:mt-36 scroll-mt-28">
                 <div class="divider-fade mb-16"></div>
-                <div class="text-center mb-12">
-                    <p class="text-xs font-semibold tracking-[0.2em] uppercase text-accent js-anim">Tentang</p>
-                    <h2 class="mt-3 text-3xl sm:text-4xl font-bold js-anim">Our Company</h2>
+                <div class="text-center mb-12 stagger-header">
+                    <p class="text-xs font-semibold tracking-[0.2em] uppercase text-accent">Tentang</p>
+                    <h2 class="mt-3 text-3xl sm:text-4xl font-bold">Our Company</h2>
                 </div>
 
-                <article class="max-w-3xl mx-auto bg-white/80 backdrop-blur-xl border border-line rounded-3xl shadow-soft overflow-hidden js-anim">
-                    <div class="relative overflow-hidden img-zoom" style="aspect-ratio: 16/9">
+                <article class="max-w-3xl mx-auto bg-white/80 backdrop-blur-xl border border-line rounded-3xl shadow-soft overflow-hidden js-article">
+                    <div class="relative overflow-hidden img-zoom js-img" style="aspect-ratio: 16/9">
                         <img src="assets/reality-group.jpg" alt="Reality Group — Kantor pusat perusahaan" class="w-full h-full object-cover" loading="lazy">
                         <div class="absolute inset-0 bg-gradient-to-t from-white/40 via-transparent to-transparent pointer-events-none"></div>
                     </div>
-                    <div class="p-6 sm:p-10 prose-custom">
+                    <div class="p-6 sm:p-10 prose-custom js-content">
                         <h3 class="!mt-0 !mb-4 text-2xl font-bold">Tentang Reality Group</h3>
                         <p>Berdiri pada momentum bersejarah tanggal 9 Desember 2025, Reality Group lahir sebagai sebuah entitas bisnis dinamis yang digagas oleh dua visioner utama, Albern Andretti & Primrose Ellianarose. Didirikannya perusahaan ini berakar dari sebuah misi besar: menjadi pilar solusi penyedia layanan terintegrasi yang paling dibutuhkan, relevan, dan berdampak langsung bagi seluruh lapisan masyarakat di San Andreas.</p>
                         <p>Kami memahami bahwa dinamika kehidupan dan perkembangan ekonomi di San Andreas menuntut adanya layanan yang cepat, adaptif, dan berkualitas tinggi. Oleh karena itu, Reality Group hadir bukan sekadar sebagai penyedia jasa, melainkan sebagai mitra strategis yang siap mempermudah, mendukung, dan meningkatkan kualitas aktivitas operasional maupun personal masyarakat setiap harinya.</p>
@@ -299,7 +302,7 @@
             </section>
 
             <!-- Footer -->
-            <footer class="mt-28 mb-12 text-center">
+            <footer class="mt-28 mb-12 text-center js-anim js-footer">
                 <div class="divider-fade mb-10"></div>
                 <p class="text-xs text-ink-muted">&copy; 2026 Reality Group. All rights reserved.</p>
                 <div class="flex items-center justify-center gap-4 mt-4 text-xs text-ink-muted">
@@ -349,42 +352,88 @@
             // Remove initial-hidden class so CSS opacity can be controlled by GSAP
             document.body.classList.remove('gsap-init');
 
+            const ease = 'power3.out';
+
             if (prefersReduced) {
-                gsap.set('.js-anim', { opacity: 1, y: 0 });
-            } else {
-                // Hero entrance timeline
-                const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
-                heroTl
-                    .fromTo('.hero-stagger > *',
-                        { opacity: 0, y: 30 },
-                        { opacity: 1, y: 0, duration: 0.9, stagger: 0.12 })
-                    .fromTo('header nav',
-                        { opacity: 0, y: -16 },
-                        { opacity: 1, y: 0, duration: 0.7, ease: 'power3.out' }, 0.1);
-
-                // Scroll reveal for service cards & section headers
-                gsap.utils.toArray('.js-anim').forEach((el) => {
-                    if (el.closest('.hero-stagger')) return;
-                    gsap.fromTo(el,
-                        { opacity: 0, y: 40 },
-                        {
-                            opacity: 1, y: 0, duration: 0.9, ease: 'power3.out',
-                            scrollTrigger: { trigger: el, start: 'top 88%', once: true }
-                        });
-                });
-
-                // Service cards cascade
-                gsap.utils.toArray('.link-card').forEach((card) => {
-                    const icon = card.querySelector('.link-icon-wrap');
-                    gsap.set(icon, { transformPerspective: 400 });
-                    card.addEventListener('mouseenter', () => {
-                        gsap.to(icon, { rotation: 8, scale: 1.08, duration: 0.4, ease: 'power2.out' });
-                    });
-                    card.addEventListener('mouseleave', () => {
-                        gsap.to(icon, { rotation: 0, scale: 1, duration: 0.5, ease: 'power2.out' });
-                    });
-                });
+                gsap.set('.js-anim, .js-card, .js-article, .js-content, .js-img, .js-footer, .stagger-header > *, .split-line', { opacity: 1, y: 0, scale: 1 });
+                return;
             }
+
+            // ---- Hero entrance ----
+            const heroTl = gsap.timeline({ defaults: { ease } });
+
+            // Navbar
+            heroTl.fromTo('header nav',
+                { opacity: 0, y: -20 },
+                { opacity: 1, y: 0, duration: 0.8 }, 0);
+
+            // Hero elements (badge, paragraph, buttons) fade + rise with stagger
+            heroTl.fromTo('.js-hero:not([data-split])',
+                { opacity: 0, y: (i, el) => Number(el.dataset.dir || 40) },
+                { opacity: 1, y: 0, duration: 0.9, stagger: 0.14 }, 0.1);
+
+            // Hero heading: mask reveal per line
+            heroTl.fromTo('.split-line',
+                { yPercent: 115, opacity: 0 },
+                { yPercent: 0, opacity: 1, duration: 0.95, stagger: 0.14, ease: 'power4.out' }, 0.15);
+
+            // ---- Scroll reveal: staggered section headers ----
+            gsap.utils.toArray('.stagger-header').forEach((header) => {
+                gsap.fromTo(header.children,
+                    { opacity: 0, y: 30 },
+                    {
+                        opacity: 1, y: 0, duration: 0.8, stagger: 0.12, ease,
+                        scrollTrigger: { trigger: header, start: 'top 88%', once: true }
+                    });
+            });
+
+            // ---- Service cards: cascade scale + rise ----
+            gsap.fromTo('.js-card',
+                { opacity: 0, y: 48, scale: 0.96 },
+                {
+                    opacity: 1, y: 0, scale: 1, duration: 0.85, stagger: 0.1, ease,
+                    scrollTrigger: { trigger: '#layanan-grid', start: 'top 82%', once: true }
+                });
+
+            // ---- Company article ----
+            gsap.fromTo('.js-article',
+                { opacity: 0, y: 60 },
+                {
+                    opacity: 1, y: 0, duration: 0.9, ease,
+                    scrollTrigger: { trigger: '.js-article', start: 'top 85%', once: true }
+                });
+            gsap.fromTo('.js-img',
+                { scale: 1.18, y: -10 },
+                {
+                    scale: 1, y: 0, duration: 1.2, ease: 'power2.out',
+                    scrollTrigger: { trigger: '.js-article', start: 'top 85%', once: true }
+                });
+            gsap.fromTo('.js-content',
+                { opacity: 0, y: 30 },
+                {
+                    opacity: 1, y: 0, duration: 0.9, ease: 'power3.out',
+                    scrollTrigger: { trigger: '.js-content', start: 'top 88%', once: true }
+                });
+
+            // ---- Footer ----
+            gsap.fromTo('.js-footer',
+                { opacity: 0, y: 30 },
+                {
+                    opacity: 1, y: 0, duration: 0.9, ease,
+                    scrollTrigger: { trigger: '.js-footer', start: 'top 92%', once: true }
+                });
+
+            // ---- Card hover micro-interaction ----
+            gsap.utils.toArray('.link-card').forEach((card) => {
+                const icon = card.querySelector('.link-icon-wrap');
+                gsap.set(icon, { transformPerspective: 400 });
+                card.addEventListener('mouseenter', () => {
+                    gsap.to(icon, { rotation: 8, scale: 1.08, duration: 0.4, ease: 'power2.out' });
+                });
+                card.addEventListener('mouseleave', () => {
+                    gsap.to(icon, { rotation: 0, scale: 1, duration: 0.5, ease: 'power2.out' });
+                });
+            });
 
             lucide.createIcons();
             ScrollTrigger.refresh();
